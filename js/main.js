@@ -95,7 +95,7 @@ class Game {
   resetGame() {
     this.arr = [];
     this.winner = false;
-    this.playerTurn = true;
+    this.playerTurn = this.playerTurn;
 
     this.elements.forEach((element) => {
       element.innerHTML = "";
